@@ -1,0 +1,55 @@
+/* External */
+
+/* Selector */
+/* Tag */
+body {
+  background-color: #999;
+}
+
+h1 {
+  /* red, green, blue, grey, pink */
+  color: #f00;
+  background-color: rgb(130, 130, 130);
+  font-size: 70px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.maxsus {
+  font-style: normal;
+}
+
+p {
+  color: grey;
+}
+
+/* Class */
+.qizil-yozuv {
+  color: red;
+}
+
+.kok-yozuv {
+  color: blue;
+}
+
+/* Id */
+#birinchi-p {
+  color: green !important;
+}
+
+/* Attribute */
+[title="Birlashgan Millatlar Tashkiloti"] {
+  font-size: 50px;
+}
+
+/* Universal */
+* {
+  font-size: 70px;
+}
+
+/* 
+  Selector {
+    property: value;
+    property: value;
+  }
+*/

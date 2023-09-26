@@ -1,0 +1,15 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css/main",
+      "savePathReplacementPairs": null
+    }
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  // "workbench.colorTheme": "Abyss",
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "git.autofetch": true
+}

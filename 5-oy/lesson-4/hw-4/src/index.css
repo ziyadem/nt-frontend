@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 10px;
+    background-color: black;
+}
+header img{
+    width: 150px;
+    height: 100px;
+}
+.link{
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.link:hover{
+    color: #cc8e23;
+}
+.link1{
+    color: #cba35d;
+}
+.link2{
+    color: #cba35d;
+}
+.card-product{
+    height: 550px;
+}
+.card-product .img{
+    height: 300px;
+}
+.product-h1{
+    font-size: 60px;
+}
+.card:hover{
+    box-shadow: 1px 2px 16px 1px #7d7d7d;
+}
+.card-image{
+    width: 30px;
+}

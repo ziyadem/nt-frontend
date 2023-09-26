@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="/signup">
+      <fieldset>
+        <legend>Form elementlari</legend>
+        <label for="ism-uchun">Ism</label>
+        <input
+          type="text"
+          id="ism-uchun"
+          placeholder="Eshmat"
+          value="Alisher"
+          required
+        />
+        <label for="bio">About</label>
+        <textarea cols="30" rows="10" id="bio" placeholder="Juda Ajoyib...">
+Hammaga Sa</textarea
+        >
+        <select name="" id="">
+          <option selected disabled>Davlatni tanlang</option>
+          <optgroup label="Asia">
+            <option>Uzbekistan</option>
+            <option>Kazakhstan</option>
+          </optgroup>
+          <optgroup label="Europe">
+            <option>Russia</option>
+            <option>USA</option>
+            <option>Turkey</option>
+          </optgroup>
+        </select>
+        <button type="submit">Qabul</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

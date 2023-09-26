@@ -1,0 +1,77 @@
+/* h1.hello {
+  color: red;
+  font-size: 100px;
+  background-color: #00f;
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+  line-height: 800px;
+  border-radius: 50%;
+  border: 20px double blue;
+  border-radius: 50px 0 25px 15px / 20px 0 15px 30px; */
+
+/* border-radius: 50px 0 150px 10px;
+  border-top-right-radius: 40px; */
+/* border-width: 50px;
+  border-color: blue;
+  border-style: double; */
+/* solid, dotted, dashed, double */
+/* border-top: 50px dotted green;
+  border-right-color: aqua;
+  border-bottom-width: 10px; */
+/* } */
+
+p {
+  /* font-size: 50px; */
+  /* background-color: #ff0; */
+}
+
+.box {
+  background-color: #0f0;
+}
+
+.kok {
+  background-color: #00f;
+  color: #fff;
+}
+
+.shape {
+  width: 0;
+  height: 0;
+  background-color: #0ff;
+  /* border-radius: 250px; */
+  border: 100px solid red;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-right-color: orange;
+  border-left-color: transparent;
+  border-left: none;
+}
+/* 
+.card {
+  font-size: 30px;
+  background-color: #0f0;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lists {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+} */
+
+/* .text {
+  display: inline;
+} */
+
+p {
+  font-size: 40px;
+  background-color: #0ff;
+  width: 600px;
+  height: 600px;
+  overflow: auto;
+}

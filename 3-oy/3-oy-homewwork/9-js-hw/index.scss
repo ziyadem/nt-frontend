@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+   max-width: 1550px !important;
+   padding: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    .rasm{
+           width: 50px;
+           border-radius: 50%;
+   }
+   a{
+       color: black !important;
+       text-decoration: none !important;
+   }
+   svg{
+       width: 30px;
+   }
+   .nav-item1{
+     width: 300px;
+     height: 1000px;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     border-right: 1px solid grey;
+     margin-right: 10px;
+     overflow: auto;
+    .textBtn{
+        font-size: 20px;
+        padding-left: 10px;
+        color: grey;
+    }
+    
+    .textBtn:hover{
+        color: rgb(96, 96, 187);
+    }
+    .fa{
+        font-size: 30px !important;
+        color: gray;   
+    }
+    .fa:hover{
+        color: blue;
+    }
+    button{
+        width: 60px;
+        height: 30px;
+        border-radius: 15px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        padding: 4px;
+        .dark-smal{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: black;
+        }
+    }
+   }
+   .nav-item2{
+    width: 100%;
+       input{
+           width: 500px;
+       }
+       height: 50px;
+       display: flex;
+       justify-content: space-between !important;
+    }
+}
+.onerasm{
+    width: 100px;
+}
+
+.dark{
+    background-color: rgb(35, 36, 36);
+    .logoText{
+        color: white !important;
+    }
+    .nav-item2 svg{
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .dark-smal{
+        margin-left: 30px;
+        transition: all 0.4s;
+    }
+
+}
+.yoqbol{
+    .textBtn{
+        display: none;
+    }
+    .nav-item1{
+        width: 130px;
+        transition: all 1s;
+    }
+}
+

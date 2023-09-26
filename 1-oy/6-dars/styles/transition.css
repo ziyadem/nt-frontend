@@ -1,0 +1,21 @@
+h1 {
+  background-color: #f00;
+  transition: all 3s ease-in 2s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.2s;
+  height: 100px;
+  display: none;
+}
+
+.parent:hover h1 {
+  display: block;
+}
+
+h1:hover {
+  background-color: #0f0;
+  box-shadow: 10px 10px 10px grey;
+  height: 200px;
+  margin-left: 300px;
+}

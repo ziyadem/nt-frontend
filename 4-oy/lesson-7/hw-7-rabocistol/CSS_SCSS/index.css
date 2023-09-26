@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&family=Rubik+Wet+Paint&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Nosifer", cursive;
+  font-family: "Rubik Wet Paint", cursive;
+  text-align: center;
+  padding: 20px 0;
+  color: #0D6EFD;
+  font-size: 80px !important;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+.hero .form {
+  display: flex;
+  gap: 5px;
+}
+.hero .search-img {
+  width: 30px;
+}
+.hero input {
+  padding: 5px;
+}
+
+.pagination {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+.pagination .BTN {
+  padding: 5px;
+  width: 50px;
+  border: 2px solid #0D6EFD;
+  color: #0D6EFD;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.pagination .btn1 {
+  background-color: #0D6EFD;
+  color: white;
+}
+
+.body-hero {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-product {
+  width: 23%;
+  height: 420px;
+  box-shadow: 1px 1px 13px 1px #0D6EFD;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.card-product img {
+  width: 100%;
+  height: 200px;
+}
+.card-product .count-rate {
+  display: flex;
+  gap: 50px;
+}
+.card-product .count-rate span {
+  display: flex;
+  gap: 10px;
+}
+.card-product .count-rate img {
+  width: 30px;
+  height: 30px;
+}
+.card-product .card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.card-product .card-footer img {
+  width: 20px;
+  height: 20px;
+}
+.card-product .card-footer button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: #0D6EFD;
+  border: 1px solid #0D6EFD;
+  background-color: white;
+}
+.card-product .card-footer button:hover {
+  box-shadow: 1px 1px 12px 2px #0D6EFD;
+}
+
+@media screen and (max-width: 1000px) {
+  .card-product {
+    width: 45%;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card-product {
+    width: 100%;
+  }
+  .body-hero {
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 60px !important;
+  }
+}
+.modal-body img {
+  width: 100px;
+  height: 100px;
+}
+
+.offcanvas-body img {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=index.css.map */

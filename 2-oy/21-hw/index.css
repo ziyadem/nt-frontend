@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+
+}
+header, .hero{
+    background-color: #212529;
+}
+a{
+    text-decoration: none;
+}
+.a:hover {
+    color: white;
+}
+.svg {
+   width: 80px;
+   padding: 20px;
+   border-radius: 5px;
+   background-color: blue;
+}
+.pay{
+    background-color: #F2F6FC;
+}
+ul li {
+    list-style: none;
+}
+.sv {
+    width: 10px;
+}
+.ss{
+    width: 70px;
+}
+img{
+    width: 30px;
+}

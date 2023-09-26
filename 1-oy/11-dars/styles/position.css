@@ -1,0 +1,154 @@
+/* Combinators */
+
+/* descendant */
+
+div p {
+}
+
+/* direct child */
+
+div > p {
+}
+
+/* sibling */
+
+div ~ p {
+}
+
+/* next to => neighbor */
+
+div + p {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+header#main-header {
+  background-color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  /* relative, static */
+}
+
+header#main-header .logo {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+header#main-header .container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+header#main-header .main-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+section#cards {
+  padding: 1rem 0;
+}
+
+.card {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  /* position: static; */
+  z-index: 1;
+}
+
+.card:first-child {
+  left: 30px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-title {
+  font-size: 2rem;
+  margin: 0.5em 0;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}
+
+.card-link {
+  display: inline-block;
+  padding: 0.4em 1.2em;
+  border: 1px solid #0f0;
+  color: #0f0;
+  margin: 1rem 0;
+}
+
+.sale {
+  display: inline-block;
+  background-color: #f00;
+  padding: 0.4em 1.2em;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  color: #fff;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.to-top {
+  background-color: #00f;
+  color: #fff;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+footer#main-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  text-align: center;
+}

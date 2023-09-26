@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans';
+}
+
+/* header */
+
+header{
+  background-image: url(../src/assets/bg-img.png);
+  padding: 30px 0 50px;
+}
+.nav-one a {
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px;
+}
+.right-header ,.left-header,.left-download, .togle {
+  width: 47%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 5px 5px 0px;
+  height: 70px;
+  padding-right: 5px;
+  background-color: white;
+  
+}
+.left-header{
+  border-radius: 5px 0px 0px 5px;
+  padding-left: 50px;
+
+}
+.nav-two a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #232233;
+}
+.logo{
+  background-color: white;
+  padding: 31px 16px;
+  border-radius: 5px;
+}
+.download{
+  padding: 12px 8px;
+  height: 50px;
+  background-color:  #5956E9;
+  border-radius: 5px;
+  color: white;
+}
+.left-download , .togle{
+  display: none;
+}
+.togle img{
+  width: 30px;
+}
+
+/* home */
+.home{
+  background-image: url(../src/assets/bg-img.png);
+  padding: 67px 0 83px;
+}
+.home-body .div{
+    width: 45%;
+  
+}
+.card-div{
+  background-color: white;
+  padding: 40px 20px;
+  margin-top: 50px;
+  
+}
+.card-div h1{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #5956E9;
+}
+.ramka{
+  position: absolute;
+  margin-left: 40px;
+  width: 570px;
+  height: 535px;
+}
+
+/* About */
+.about{
+  padding: 120px 0 160px;
+}
+.about h2{
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 47px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #232233;
+}
+.about p{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #6C6C72;
+    }
+.about-paragrf{
+  width: 601px;
+   text-align: center;
+}
+.about-card , .about-img{
+  width: 45%;
+  margin-top: 60px;
+}
+.vector{
+  width: 40px;
+  height: 40px;
+}
+
+/* feautures */
+.feature{
+  padding: 120px 0;
+  background-image: url(./assets/bg-img.png);
+  color: white;
+}
+.feature h2 , .blog h2, .screenshot h2,.costumer h2{
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 47px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.future-p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 601px;
+}
+.future-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.future-img {
+  width: 100%;
+  height: 1000px;
+}
+.h3{
+  text-align: end;
+}
+.future-item h3{
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin: 22px 0px 18px;
+
+}
+.future-hero{
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+.future-item p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+ul{
+  list-style: none;
+}
+
+/* footer */
+footer{
+  background-color: #232233;
+  color: white !important;
+  padding:130px 0  20px;
+  position: relative;
+}
+.otpravit{
+  padding: 5px;
+  background-color: #5956E9;
+}
+input{
+  border: none;
+
+}
+.input{
+  display: inline-block;
+  background-color: white;
+  padding: 2px;
+  border-radius: 4px;
+}
+.footer-top{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  margin-top: -130px;
+}
+.footer-email{
+  width: 70%;
+  padding: 50px 150px;
+  background-color: white;
+  color: black !important;
+  border-radius: 30px;
+  box-shadow: 1px 3px 10px 1px #6C6C72 ;
+}
+.foter-img{
+  background-color: #5956E9;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+footer p{
+  margin-bottom: 0;
+}
+/* blog */
+.blog-card{
+  width: 33.3%;
+}
+.blog img{
+  width: 100%;
+}
+.card-body h3{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #232233;
+  margin-top: 20px;
+}
+.card-body p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6C6C72;
+}
+/* download */
+.download-section{
+  padding: 100px 0;
+}
+.one-download{
+  width: 50%;
+}
+.one-download h2{
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #232233;
+}
+.one-download p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6C6C72;
+  margin: 20px 0;
+}
+.download-card{
+  width: 30%;
+  padding: 20px 10px;
+  background-color: #5956E9;
+  color: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.two-download{
+  width: 45%;
+}
+.two-download img{
+  width: 100%;
+}
+
+/* screenshot */
+.screenshot{
+  padding: 120px 0 0;
+}
+.screen-icon{
+  background-color: black;
+  border-radius: 30px;
+}
+.screenshot-card{
+  width: 30%;
+}
+.screenshot-card:hover{
+  box-shadow: 1px 3px 9px 1px #6C6C72;
+}
+.screenshot-card h3 {
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #232233;
+}
+.screenshot-card h4{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #6C6C72;
+}
+.screenshot-card p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #6C6C72;
+  
+}
+.costumer{
+  background-image: url(../src/assets/bg-img.png);
+  padding: 120px 0;
+}
+.car{
+  border-radius: 50px;
+}
+.carousel-style{
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.img-c{
+  width: 30%;
+}
+@media screen and  (max-width:1000px){
+  .header-pages{
+    display:none !important;
+  }
+  .togle{
+    display: flex;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .left-download{
+    display: flex;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and  (max-width:576px){
+  header{
+    padding: 50px 0;
+  }
+  .nav-one{
+    display: none !important;
+  }
+  .logo{
+    width: 150px;
+    height: 60px;
+    color: black;
+    padding: 10px;
+    height: 70px;
+  }
+  .left-download, .togle {
+    width: 47%;
+    height: 50px; 
+    align-items: center;  
+  }
+  .download{
+    padding: 8px 8px;
+    height: 40px;
+    font-size: 10px !important;
+  }
+  .togle{
+    padding-left: 10px;
+  }
+  .home-body div{
+    width: 100%;
+  
+}
+  
+}

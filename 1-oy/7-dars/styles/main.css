@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.parent {
+  background-color: #0f0;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  /* stretch, flex-start, flex-end, center */
+  justify-content: space-between;
+  /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+  gap: 10px;
+  /* column-gap: 50px;
+  row-gap: 20px; */
+  /* flex-wrap: wrap; */
+  align-content: center;
+  /* flex-direction: column-reverse; */
+}
+
+.child {
+  background-color: #0ff;
+  border: 3px solid #f00;
+  /* width: 400px; */
+  height: 300px;
+  flex: 1;
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+}
+
+.child:nth-child(2) {
+  /* align-self: flex-end;
+    order: -2; */
+  flex: 2;
+}
+
+.child:nth-child(5) {
+  /* align-self: flex-start; */
+  /* order: -1; */
+  flex: 5;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #ff0;
+}
+
+details {
+  background-color: #f0f;
+  font-size: 10px;
+}
+
+/* CSS Units */
+/* px, %, vh, vw, s, ms, deg, rem, em */
+/* vh => viewport height */
+/* vw => viewport width */
+
+div {
+  padding: 50px;
+  background-color: #f0f;
+}
+
+p {
+  font-size: 1.5em;
+  padding: 0.5em;
+  width: 30em;
+  background-color: #0f0;
+}
+
+div:hover p {
+  color: blue;
+}
+
+time {
+  font-size: 10px;
+  display: inline-block;
+  background-color: #f00;
+  padding: 0.4em 1.2em;
+}

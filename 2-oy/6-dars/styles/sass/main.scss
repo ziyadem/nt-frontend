@@ -1,0 +1,160 @@
+// .maxsus {
+//   font-size: 400px;
+//   color: red;
+// }
+
+// .user:hover {
+//   font-weight: 900;
+// }
+
+// .tg {
+//   color: blue;
+
+//   &:hover {
+//     opacity: 0.8;
+//   }
+// }
+
+section#showcase {
+  padding: 3rem 0;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  @media (max-width: 1440px) {
+    width: 1000px;
+  }
+}
+
+.left {
+  flex: 1;
+
+  h1 {
+    font-size: 5rem;
+    font-family: cursive;
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin: 3rem 0;
+  }
+
+  .btn {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1.2em 1.8em;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    background-color: #0ff;
+    border-radius: 10px;
+  }
+}
+
+.right {
+  flex: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+// .parent {
+//   display: flex;
+//   gap: 20px;
+//   flex-wrap: wrap;
+//   justify-content: center;
+
+//   .child {
+//     width: 30%;
+//     background-color: #0ff;
+//     padding: 50px;
+//     font-family: sans-serif;
+//     font-size: 20px;
+//   }
+// }
+
+// @media (max-width: 1344px) {
+//   .parent {
+//     flex-direction: column;
+//   }
+// }
+
+@media (max-width: 1440px) {
+  .container {
+    width: 1000px;
+  }
+
+  .left {
+    h1 {
+      font-size: 4rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 1.5rem 0;
+    }
+  }
+
+  // .parent .child {
+  //   width: 45%;
+  // }
+}
+
+@media (max-width: 1020px) and (min-width: 820px) and (min-height: 600px) {
+  .container {
+    width: 800px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  // .parent .child {
+  //   width: 100%;
+  // }
+}
+
+@media (max-width: 820px) {
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  // .parent .child {
+  //   padding: 5px;
+  // }
+
+  .left {
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+      line-height: 1.2;
+      margin: 0.5rem 0;
+    }
+
+    .btn {
+      font-size: 1rem;
+      padding: 0.4em 1.2em;
+    }
+  }
+}

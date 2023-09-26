@@ -1,0 +1,40 @@
+body {
+  background-color: #eee;
+  text-align: center;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 30%;
+  display: inline-block;
+  background-color: #fff;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px;
+  vertical-align: middle;
+  padding: 50px;
+}
+
+.card.ikkinchi {
+  height: 800px;
+  margin: 20px;
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+  background-color: orange;
+  color: #fff;
+  display: inline-block;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.dotted {
+  border-bottom: 5px dotted orange;
+}
+
+.container {
+  width: 1400px;
+  margin: 100px auto 0;
+}

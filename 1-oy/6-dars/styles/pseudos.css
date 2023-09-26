@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+.cards {
+  width: 1400px;
+  margin: 100px auto;
+}
+
+.card {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+/* Pseudo Class */
+
+.card:hover {
+  box-shadow: 10px 10px 3px grey;
+}
+
+.card:active {
+  box-shadow: 10px 10px 3px green;
+}
+
+.card:nth-of-type(2):hover {
+  background-color: #ff0;
+}
+
+a:focus {
+  font-size: 50px;
+  background-color: #f0f;
+}
+
+/* Pseudo Element */
+
+p::before {
+  content: "Avval";
+}
+
+p::after {
+  content: "Tugadi";
+}
+
+.card-title::first-letter {
+  font-size: 200px;
+}
+
+.card-text::first-line {
+  background-color: #f0f;
+  color: #fff;
+}

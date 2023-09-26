@@ -1,0 +1,60 @@
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rect {
+  width: 400px;
+  height: 150px;
+  background-color: #f00;
+  transform: translate(-50px);
+}
+
+.sqaure {
+  width: 400px;
+  height: 400px;
+  background-color: #0f0;
+  transform: skew(25deg) translateY(400px);
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #00f;
+  transform: scale(0.5, 1);
+}
+
+.ellipse {
+  width: 400px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s transform ease;
+  transform: rotateZ(120deg);
+  /* backface-visibility: hidden; */
+}
+
+/* .ellipse2 {
+  width: 400px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-100%) rotateY(180deg);
+  transition: 0.3s transform ease;
+  backface-visibility: hidden;
+} */
+
+/* .wraper:hover .ellipse {
+  transform: rotateY(180deg);
+}
+
+.wraper:hover .ellipse2 {
+  transform: rotateY(0) translateY(-100%) ;
+} */

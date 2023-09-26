@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin:  0 auto;
+}
+
+ul{
+  list-style: none;
+}
+header  a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+header button{
+  padding: 3px 28px;
+  width: 148px;
+  height: 46px;
+  background: #0077C0;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+header button:hover{
+  background: white;
+  border:2px solid #0077C0;
+  color: #0077C0;
+}
+.home div {
+  width: 50%;
+  
+}
+.home img{
+  width: 100%;
+}
+.home h1{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 125%;
+  letter-spacing: -0.5px;
+}
+.home p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.home button{
+  padding: 3px 28px;
+  width: 148px;
+  height: 46px;
+  background: #0077C0;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.home button:hover{
+  background: white;
+  border:2px solid #0077C0;
+  color: #0077C0;
+}
+.home span {
+  padding: 100px 0;
+}
+.feature{
+  background-color: #0077C0;
+  padding: 80px 0 140px;
+}
+.feature p{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  color: #FAFAFA;
+}
+.feature h2{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  margin-bottom: 75px;
+  color: #FFFFFF;
+}
+.feature-card img{
+  width: 108px;
+  height: 108px;
+  background: #C7EEFF;
+  border-radius: 50%;
+  padding: 30px;
+}
+.feature-card h4{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FAFAFA;
+}
+.feature-card p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFAFA;
+  letter-spacing:0 ;
+}
+.wakanda{
+  display: flex;
+  padding: 69px 0 73px;
+  gap: 100px;
+  align-items: center;
+}
+.wakanda img{
+  width: 40%;
+  height: 600px;
+}
+.wakanda div{
+  width: 50%;
+}
+.wakanda h2{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.5px;
+  color: #000000;
+  margin-bottom: 40px;
+  
+}
+.wakanda p{
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.wakanda span {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: #C7EEFF;
+  /* padding: 5px; */
+  border-radius: 50%;
+  text-align: center;
+}
+.expl div{
+  width: 50%;
+}
+.explore{
+  background-color: #C7EEFF;
+  padding-top: 31px;
+}
+.explore img{
+  width: 100%;
+}
+.explore h2{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.5px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.explore button {
+  padding: 3px 28px;
+  width: 148px;
+  height: 46px;
+  background: #0077C0;
+  border-radius: 10px;
+  border: none;
+  color: white;
+
+}
+.explore button:hover{
+  background: white;
+  border:2px solid #0077C0;
+  color: #0077C0;
+}
+.grow{
+  background-color: #0077C0;
+}
+.grow div{
+  width: 50%;
+}
+.grow img{
+  width: 100%;
+}
+.grow p{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+}
+.grow h2{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: #FFFFFF;
+}
+.grow button{
+  padding: 3px 28px;
+  width: 148px;
+  height: 46px;
+  background: white;
+  border-radius: 10px;
+  border: none;
+  color: #0077C0;
+  margin-top: 20px;
+
+}
+.grow button:hover{
+  background-color: #0077C0;
+  color:white;
+  border: 2px solid white;
+  
+}
+.testimonial{
+  padding: 87px 0 140px;
+}
+.testimonial .img{
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+.testimonial-card{
+  width: 30%;
+  padding: 10px;
+  margin-top: 20px;
+}
+.testimonial h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: -0.5px;
+  margin-bottom: 60px;
+
+}
+.testimonial .p{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  color: #0077C0;
+  text-align: center;
+}
+footer{
+  background-color: #1D242B;
+  padding: 64px 0 131px;
+  margin-top: 70px;
+}
+#logo{
+  width: 200px;
+}
+footer p{
+  color: #D9DBE1;;
+}
+.foter-img img {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color:#383a3c ;
+}
+footer h4{
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #D9DBE1;
+}
+footer input{
+  background-color:#383a3c ;
+  border: 2px solid #55585a;
+  padding: 5px;
+}

@@ -1,0 +1,122 @@
+.main1 {
+  color: #1d2f38;
+  h2 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 33px;
+  }
+}
+
+.cardej {
+  img {
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d2f38;
+}
+.cerd1 {
+  h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 9px;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+.playmain {
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1d2f38;
+    img {
+      margin-right: 9px;
+    }
+  }
+
+  margin: 60px auto;
+}
+
+.btn_link {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #17a550;
+  &:hover {
+    color: #000;
+    background-color: #536d7a;
+    transition-duration: 1000ms;
+  }
+}
+
+.mainh2 {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 33px;
+}
+.cardlet {
+  background-color: #f7f9fa;
+  color: #1d2f38;
+  margin-right: 40px;
+  img {
+    width: 100%;
+  }
+  h3 {
+    margin-top: 24px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  p {
+    margin-top: 13px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.main2 {
+  background-image: url("/images/main/IMAGEbc.png");
+  min-height: 112px;
+  background-size: cover;
+  padding: 0 40px;
+  margin: 100px auto;
+  h2 {
+    padding-left: 12px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

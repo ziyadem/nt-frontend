@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>9-dars</title>
+  </head>
+  <body>
+    <form action="/login">
+      <fieldset>
+        <legend>Input turlari</legend>
+        <label for="futbol">Futbol</label>
+        <input type="radio" name="javob-1" value="a" id="savol-1-a" />
+        <input type="radio" name="javob-1" value="b" id="savol-1-b" />
+        <input type="radio" name="javob-1" value="c" />
+        <input type="radio" name="javob-2" value="a" />
+        <input type="radio" name="javob-2" value="b" />
+        <input type="radio" name="javob-2" value="c" />
+        <input type="checkbox" name="sports" id="futbol" value="football" />
+        <input type="checkbox" name="sports" id="valibol" value="valeyball" />
+        <input type="checkbox" name="sports" value="basketball" />
+        <label for="futbol">Futbol</label>
+
+        <input type="checkbox" name="sports" value="golf" />
+        <input type="checkbox" name="sports" value="tennis" />
+        <input type="text" />
+        <input type="number" min="5" max="99" />
+        <input type="email" placeholder="john@gmail.com" />
+        <input type="password" />
+        <input type="tel" />
+        <input type="url" />
+        <input type="time" />
+        <input type="date" />
+        <label for="futbol">Futbol</label>
+
+        <input type="datetime-local" />
+        <input type="color" />
+        <input type="file" />
+        <input type="range" min="0" max="5" step="2" />
+        <input type="search" />
+        <input type="button" value="Batafsil" />
+        <input type="submit" value="o'zbecka" />
+        <input type="reset" value="o'zbecka" />
+      </fieldset>
+      <fieldset>
+        <legend>Form elementlar</legend>
+        <label for="fName">ism</label>
+        <label for="futbol">Futbol</label>
+
+        <input
+          type="text"
+          value="Toshmat"
+          placeholder="Eshmat"
+          id="fName"
+          minlength="4"
+          maxlength="8"
+          required
+          name="firstName"
+        />
+
+        <textarea name="bio" cols="30" rows="10" placeholder="Hellow...">
+Hammaga Sa</textarea
+        >
+        <label for="futbol">Futbol</label>
+
+        <select name="country" id="">
+          <option disabled selected>Davlatingizni tanlang</option>
+          <optgroup label="Asia">
+            <option value="uz">Uzbekistan</option>
+            <option value="tj">Tajikistan</option>
+          </optgroup>
+          <optgroup label="Europe">
+            <option value="fr">France</option>
+            <option value="gb">Great Britain</option>
+          </optgroup>
+        </select>
+
+        <button type="submit">Qabul</button>
+        <button type="reset">Qayta</button>
+        <button type="button">Batafsil</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

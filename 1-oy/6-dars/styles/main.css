@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-size: 60px;
+  background-color: #0f0;
+  display: inline-block;
+  padding: 16px;
+  box-shadow: inset -10px 10px 0px 5px #ccc, 10px 10px 3px #f0f, 10px -10px #0ff;
+  text-shadow: 1px 1px blue, -1px -1px black;
+}
+
+div.tiktok {
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 50px;
+  font-size: 400px;
+  background-color: #000;
+  color: #fff;
+  text-shadow: 10px 10px #ff2d58, -10px -10px aqua;
+}

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&family=Rubik+Gemstones&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heding1 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 60px;
+}
+
+h1 {
+  font-family: "Nosifer", cursive;
+  font-family: "Rubik Gemstones", cursive;
+}
+
+body {
+  background-color: chocolate;
+  height: 100vh;
+}
+
+.btn {
+  position: absolute;
+  bottom: 0;
+  margin-left: 350px;
+}
+.btn button {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  box-shadow: 4px 4px 10px 4px rgb(110, 49, 6);
+}
+.btn button:hover {
+  background-color: chocolate;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+ul li {
+  list-style: none;
+  width: 200px;
+  box-shadow: 4px 4px 10px 4px rgb(110, 49, 6);
+  padding: 7px;
+}
+ul button {
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  color: chocolate;
+}
+ul button:hover {
+  background-color: chocolate;
+  color: white;
+  box-shadow: 4px 4px 10px 4px rgb(110, 49, 6);
+}
+
+.divModal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  display: none;
+}
+.divModal img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 105px;
+  margin-left: 800px;
+}
+.divModal .hero {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin: 100px auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.log-in {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.log-in .hero-input {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.log-in input {
+  padding: 10px;
+}/*# sourceMappingURL=main.css.map */

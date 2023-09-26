@@ -1,0 +1,24 @@
+p {
+  font-size: 40px;
+  text-align: left;
+  /* left, right, center, justify */
+  text-transform: none;
+  /* uppercase, lowercase, capitalize */
+  text-decoration: none;
+  /* underline, overline, line-through */
+  word-spacing: 50px;
+  letter-spacing: 5px;
+  line-height: 1.6;
+}
+
+/* span {
+    background-color: #ff0;
+} */
+
+.kok {
+    color: hsl(147, 100%, 54%);
+}
+
+.red {
+  color: rgb(255, 0, 0);
+}

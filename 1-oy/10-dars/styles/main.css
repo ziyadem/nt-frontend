@@ -1,0 +1,51 @@
+/* ::-webkit-input-placeholder {
+  color: red;
+}
+
+input {
+  width: 300px;
+  outline: none;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #74203e;
+  padding: 3rem;
+}
+
+section#reg {
+  background-color: #a22b56;
+  padding: 3rem 0;
+  color: #fff;
+  font-size: 2rem;
+}
+
+div {
+  margin-bottom: 1rem;
+}
+
+label:first-child,
+span {
+  width: 49%;
+  display: inline-block;
+}
+
+input:not([type="radio"]), textarea {
+  width: 49%;
+  padding: 0.4em 1.2em;
+  font-size: 2rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  font-size: 2rem;
+  padding: .4em 1.2em;
+}

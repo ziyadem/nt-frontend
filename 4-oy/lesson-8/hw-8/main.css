@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: black;
+    display: flex;
+    
+}
+.one{
+   width: 20%;
+   padding: 100px 10px;
+}
+ h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    background-image: linear-gradient(red, yellow);
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+#two{
+    width: 60%;
+    margin: 0 auto;
+    height: 3400px;
+    background-color: red;
+    background-image: url(./img/yollar.png);
+    /* background-repeat: repeat-y; */
+    background-size: cover;
+}
+.two-end{
+    animation: highway 5s linear infinite;
+
+}
+.three{
+    width: 20%;
+   padding: 100px 10px;
+
+}
+h2{
+    color: white;
+}
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    bottom: 0;
+}
+#rul{
+    width: 200px;
+}
+.rul2{
+    animation: harakat 5s linear infinite;
+}
+
+.hero{
+    /* padding: 10px; */
+    background-image: linear-gradient(blue, aqua);
+    border-radius: 20px;
+}
+.hero p{
+    color: white;
+    font-size: 50px;
+}
+.redCar{
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+    margin-bottom: 300px;
+    margin-left: 550px;
+}
+.petrol-img{
+    width: 100px;
+}
+.petrol-number{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.theree h3{
+    font-size: 60px;
+}
+
+@keyframes harakat {
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes highway {
+    100%{
+        transform: translateY(-2500px);
+    }
+}
+button{
+    padding: 10px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 6px 10px 5px grey;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.btn{
+    border-radius: 0;
+    background-color: rgb(27, 165, 82);
+    box-shadow: 1px 1px 9px 1px  rgb(27, 165, 82);
+    height: 60px;
+    margin-left: 20px;
+    display: block;
+}
+.btn1{
+    border-radius: 0;
+    background-color: rgb(24, 58, 183);
+    box-shadow: 1px 1px 9px 1px  rgb(25, 70, 110);
+    margin-left: 20px;
+    height: 60px;
+}
+#two div {
+    padding: 10px;
+    background-color: red;
+}
+h6{
+    font-size: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
